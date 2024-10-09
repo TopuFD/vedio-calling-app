@@ -7,7 +7,7 @@ class AppRoute {
   static const signUpScreen = "/signUpScreen";
   static List<GetPage> pages = [
     GetPage(name: signinScreen, page: ()=> SigninScreen()),
-    GetPage(name: signinScreen, page: ()=> SignupScreen()),
+    GetPage(name: signUpScreen, page: ()=> SignupScreen()),
   ];
 
 }
